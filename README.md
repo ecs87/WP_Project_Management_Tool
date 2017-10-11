@@ -14,7 +14,7 @@ In the Dashboard (Forms)
 * Activate your license of Gravity Forms
 * Go to Forms -> New Form/Add New -> Form Title -> "Timesheet" -> Click the Create Form Button
 * Add 6 fields:
-A) Date (Advanced Fields -> Date)
+ * Date (Advanced Fields -> Date)
 B) Start Time (Advanced Fields -> Time)
 C) End Time (Advanced Fields -> Time)
 D) Client (Standard Fields -> Drop Down)
