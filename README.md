@@ -42,7 +42,7 @@ In the Dashboard (Pages):
 4. For the Timesheet page assign the "Timesheet Page" template.
 5. For the Timesheet page add this shortcode to the Visual/WYSIWYG editor:
 ```html
-[gravityform id="1" title="false" description="false"]
+[gravityform id="your_form_id_goes_here" title="false" description="false"]
 ```
 6. Go to Settings -> Reading -> Select "A static page (select below)" for the "Front page displays" section.
 7. For "Front page:" select the page "Tasks Assigned To Me". Click the Save Changes button.
@@ -53,7 +53,7 @@ In the Dashboard (Appearance)
 3. Add the pages: Tasks Assigned To Me, Timesheet, Timesheet Review, and Clients.
 4. Select "Custom Links" from the left sidebar and input this url: 
 ```html
-http://yourdomain.com/wp-login.php?action=logout.
+http://yourdomain.com/wp-login.php?action=logout
 ```
 5. For the Link Text input "Logout".
 6. Under the Menu Settings assign the Display location to Project Management Nav.
