@@ -21,7 +21,22 @@ In the Dashboard (Forms)
 	* Task Description (Standard Fields -> Paragraph Text)
 	* Worker Name (Standard Fields -> Single Line Text)
 4. I've added images to show what each of the field settings should be populated with (if you do not see images for an Appearance tab for that field it means that the defaults were used).
-imgs
+
+![Alt text](/screenshots/startTime1.jpg?raw=true "Start Time Field settings")
+![Alt text](/screenshots/startTime2.jpg?raw=true "Start Time Field settings")
+![Alt text](/screenshots/date1.jpg?raw=true "Date Field settings")
+![Alt text](/screenshots/date2.jpg?raw=true "Date Field settings")
+![Alt text](/screenshots/date3.jpg?raw=true "Date Field settings")
+![Alt text](/screenshots/endTime1.jpg?raw=true "End Time Field settings")
+![Alt text](/screenshots/endTime2.jpg?raw=true "End Time Field settings")
+![Alt text](/screenshots/client1.jpg?raw=true "Client Field settings")
+![Alt text](/screenshots/client2.jpg?raw=true "Client Field settings")
+![Alt text](/screenshots/client3.jpg?raw=true "Client Field settings")
+![Alt text](/screenshots/taskDescription1.jpg?raw=true "Task Description Field settings")
+![Alt text](/screenshots/taskDescription2.jpg?raw=true "Task Description Field settings")
+![Alt text](/screenshots/workerName1.jpg?raw=true "Worker Name Field settings")
+![Alt text](/screenshots/workerName2.jpg?raw=true "Worker Name Field settings")
+
 5. Take note of ALL field ID numbers and your form ID number (refer to the image below to get these numbers; the red arrow is pointing to the form ID number and the orange arrow is pointing to the field ID number).
 ![Alt text](/screenshots/formAndFieldID.jpg?raw=true "Form and Field ID")
 6. Go to Forms -> select your "Timesheet" form -> Settings -> Confirmations -> I hope you took note of your form ID number!!! -> Confirmation Type: Text -> Message: [gravityform id="your form ID # goes here" title="false" description="false"] (refer to the image below for clarification).
