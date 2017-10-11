@@ -1,14 +1,20 @@
 # WP_Project_Management_Tool
 A web application using the Wordpress CMS, written in HTML, CSS, PHP, Javascript and jQuery that allows users to manage projects/tasks, clients, employees, and timesheets. It's as easy as installing a theme!
 
-## Initial Setup (after setting up your database, installing Wordpress, and activating the theme)
+## Initial Setup (after setting up your database and installing Wordpress)
+
+Upload the two folders in this repo's /src folder to your server's /wp-content. Activate the theme "ecs87 Skeleton". Activate plugins: Category Order and Taxonomy Terms Order, CMB2 Field Type: Ajax Search, and Gravity Forms.
 
 In the Dashboard (Settings)
 1. Go to Settings -> Permalinks -> Select "Post name" -> Click the "Save Changes" button
 2. Go to Settings -> General -> Find the "Anyone can register" checkbox and check it (Optional; do not do this if you want to only add users yourself)
 3. Go to Settings -> General -> Select "Subscriber" for the "New User Default Role".
-4. Go to Settings -> Discussion -> Select "Allow people to post comments on new articles"
-5. Go to Settings -> Discussion -> Select "Users must be reigstered and logged in to comment"
+4. Go to Settings -> Discussion -> Select: Allow people to post comments on new articles
+5. Go to Settings -> Discussion -> Select: Users must be reigstered and logged in to comment
+6. Go to Settings -> Discussion -> Uncheck: Comment author must fill out name and email
+7. Go to Settings -> Discussion -> Uncheck: Comment author must have a previously approved comment
+8. Go to Settings -> Discussion -> Uncheck: Anyone posts a comment
+9. Go to Settings -> Discussion -> Uncheck: A comment is held for moderation
 
 In the Dashboard (Forms)
 1. Activate your license of Gravity Forms
