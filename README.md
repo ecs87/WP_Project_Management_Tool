@@ -11,22 +11,22 @@ In the Dashboard (Settings)
 	5) Go to Settings -> Discussion -> Select "Users must be reigstered and logged in to comment"
 
 In the Dashboard (Forms)
-* Activate your license of Gravity Forms
-* Go to Forms -> New Form/Add New -> Form Title -> "Timesheet" -> Click the Create Form Button
-* Add 6 fields:
- * Date (Advanced Fields -> Date)
-B) Start Time (Advanced Fields -> Time)
-C) End Time (Advanced Fields -> Time)
-D) Client (Standard Fields -> Drop Down)
-E) Task Description (Standard Fields -> Paragraph Text)
-F) Worker Name (Standard Fields -> Single Line Text)
-* I've added images to show what each of the field settings should be populated with (if you do not see images for an Appearance tab for that field it means that the defaults were used).
+1. Activate your license of Gravity Forms
+2. Go to Forms -> New Form/Add New -> Form Title -> "Timesheet" -> Click the Create Form Button
+3. Add 6 fields:
+* Date (Advanced Fields -> Date)
+* Start Time (Advanced Fields -> Time)
+* End Time (Advanced Fields -> Time)
+* Client (Standard Fields -> Drop Down)
+* Task Description (Standard Fields -> Paragraph Text)
+* Worker Name (Standard Fields -> Single Line Text)
+4. I've added images to show what each of the field settings should be populated with (if you do not see images for an Appearance tab for that field it means that the defaults were used).
 imgs
-* Take note of ALL field ID numbers and your form ID number (refer to the image below to get these numbers).
-img
-* Go to Forms -> select your "Timesheet" form -> Settings -> Confirmations -> I hope you took note of your form ID number!!! -> Confirmation Type: Text -> Message: [gravityform id="your form ID # goes here" title="false" description="false"] (refer to the image below for clarification).
-img
-* OPTIONAL: Go to Forms -> select your "Timesheet" form -> Settings -> Notifications -> toggle the notification slider to OFF.
+5. Take note of ALL field ID numbers and your form ID number (refer to the image below to get these numbers).
+![Alt text](/screenshots/formAndFieldID.jpg?raw=true "Form and Field ID")
+6. Go to Forms -> select your "Timesheet" form -> Settings -> Confirmations -> I hope you took note of your form ID number!!! -> Confirmation Type: Text -> Message: [gravityform id="your form ID # goes here" title="false" description="false"] (refer to the image below for clarification).
+![Alt text](/screenshots/gformConfirmation.jpg?raw=true "Gforms Confirmations")
+7. OPTIONAL: Go to Forms -> select your "Timesheet" form -> Settings -> Notifications -> toggle the notification slider to OFF.
 
 
 In the Dashboard (Appearance)
