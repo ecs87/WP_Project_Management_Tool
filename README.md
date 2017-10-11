@@ -73,3 +73,16 @@ http://yourdomain.com/wp-login.php?action=logout
 5. For the Link Text input "Logout".
 6. Under the Menu Settings assign the Display location to Project Management Nav.
 7. Click the Save Menu button.
+
+## Basic Usage (after initial setup)
+All pages on the site will require that the user be logged in.
+
+In the dashboard you can create clients for the client list by going to Tasks -> Client List. This is a category/taxonomy that is used to populate various client fields across the site.
+
+Once a client is added you can then create tasks linked to that client that are assigned to users. Tasks contain a title, content, closed/completed status, a deadline date, which client it belongs to, files belonging to the task, users belonging to the task and comments/discussions belonging to that task.
+
+Users are automatically emailed whenever they are added or removed from a task.
+
+Users associated with a task as well as the task's creator are also automatically emailed whenever a user posts in the comments/discussions for that task.
+
+Users can keep track of their time via the timesheet page. They can review what they've submitted on the timesheet review page. The timesheet review page only shows time for tasks belonging to the user that's currently logged in (unless they're an administrator; administrators are able to see everyones tasks on the timesheet review page). The user can edit their timesheet entries here and they can delete them as well (administrators can edit and delete anyone's timesheet entries). Administrators have the added functionality of filtering not only by client name and date, but also by user on the timesheet review page (normal users don't need this functionality since they are only allowed to see their own entries).
