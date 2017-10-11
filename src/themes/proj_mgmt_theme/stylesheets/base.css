@@ -1,0 +1,683 @@
+/*
+* Skeleton V1.1
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 8/17/2011
+*/
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Site Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Tabs
+	#Forms
+    #Menu + Logo
+	#Misc 
+    #Sidebar
+    #Footer
+*/
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* #Basic Styles
+================================================== */
+body {
+    background: #fff;
+	font-family: 'Raleway';
+	font-size: 16px;
+	line-height: 20px;
+    color: #444;
+}
+
+#wpadminbar {
+    position: fixed !important;
+}
+
+/* #Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 {
+    color: #181818;
+		font-family: 'Raleway';
+    font-weight: normal;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-weight: inherit;
+}
+
+h1 {
+    font-size: 46px;
+    line-height: 50px;
+    padding-bottom: 25px;
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 34px;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-size: 21px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+h5 {
+    font-size: 17px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 10px;
+}
+
+.subheader {
+    color: #777;
+}
+
+p {
+	margin: 0 0 20px 0;
+	font-family: 'Raleway';
+	font-size: 18px;
+	line-height: 25px;
+}
+
+p img {
+    margin: 0;
+}
+
+p.lead {
+    font-size: 21px;
+    line-height: 27px;
+    color: #777;
+}
+
+em {
+    font-style: italic;
+}
+
+strong, b {
+    font-weight: bold;
+    color: #333;
+}
+
+small {
+    font-size: 80%;
+}
+
+/*	Blockquotes  */
+blockquote, blockquote p {
+    font-size: 17px;
+    line-height: 24px;
+    color: #777;
+    font-style: italic;
+}
+
+blockquote {
+    margin: 0 0 20px;
+    padding: 9px 20px 0 19px;
+    border-left: 1px solid #ddd;
+}
+
+blockquote cite {
+    display: block;
+    font-size: 12px;
+    color: #555;
+}
+
+blockquote cite:before {
+    content: "\2014 \0020";
+}
+
+blockquote cite a, blockquote cite a:visited, blockquote cite a:visited {
+    color: #555;
+}
+
+hr {
+    border: solid #ddd;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 10px 0 30px;
+    height: 0;
+}
+
+/* #Links
+================================================== */
+a, a:visited {
+    color: #333;
+    text-decoration: underline;
+    outline: 0;
+}
+
+a:hover, a:focus {
+    color: #000;
+}
+
+p a, p a:visited {
+    line-height: inherit;
+}
+
+/* #Lists
+================================================== */
+ul, ol {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: disc outside;
+    margin-left: 40px;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ol, ul.square, ul.circle, ul.disc {
+    margin-left: 30px;
+}
+
+ul.square {
+    list-style: square outside;
+}
+
+ul.circle {
+    list-style: circle outside;
+}
+
+ul.disc {
+    list-style: disc outside;
+}
+
+ul ul, ul ol,
+ol ol, ol ul {
+    margin: 4px 0 5px 30px;
+    font-size: 90%;
+}
+
+ul ul li, ul ol li,
+ol ol li, ol ul li {
+    margin-bottom: 6px;
+}
+
+li {
+    line-height: 18px;
+    margin-bottom: 12px;
+}
+
+ul.large li {
+    line-height: 21px;
+}
+
+li p {
+    line-height: 21px;
+}
+
+/* #Images
+================================================== */
+
+img.scale-with-grid {
+    max-width: 100%;
+    height: auto;
+}
+
+.alignleft {
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+.alignright {
+    float: right;
+    margin: 0 0 10px 20px;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}
+
+.attachment-featured-image {
+    float: right;
+    margin: 0 0 20px 20px;
+    border: #858585 5px solid;
+}
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; 
+  transition: 200ms;
+}
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; 
+}
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0;
+}
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; 
+}
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="date"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; 
+}
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none; 
+}
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; }
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; }
+fieldset {
+  padding: 0;
+  border-width: 0; }
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal; }
+  
+.gform_wrapper .chosen-container-single .chosen-single {
+	height: auto !important;
+}
+
+/* Comments
+================================================== */
+.comments-holder li {
+    margin: 50px 20px 20px 20px;
+    list-style: none;
+}
+
+.comments-holder li {
+    border-bottom: 1px solid;
+}
+
+.comments-holder ul {
+    list-style: none;
+}
+
+.comments-holder li {
+    border: none;
+}
+
+.comment-author.vcard {
+    float: left;
+    margin: 0 20px 10px 0;
+    overflow: hidden;
+    border: 2px solid auto;
+}
+
+.comment-author.vcard img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.reply-holder {
+    margin: 50px 20px 20px 20px;
+}
+
+.reply-holder .comment-form label {
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+.reply-holder .comment-form textarea {
+    max-width: 100%;
+    width: 100%;
+}
+
+.reply-holder .comment-form .comment {
+    padding: 10px;
+    width: 100%;
+}
+
+/* #Header
+================================================== */
+.logo a {
+    text-decoration: none;
+}
+
+/* #Misc
+================================================== */
+#content {
+    padding: 35px 0 0 0;
+}
+.entry-content {
+    padding: 20px 25px;
+}
+
+.title {
+    padding-bottom: 15px;
+}
+
+.full-width {
+    padding-left: 10px;
+}
+
+/* #Footer
+================================================== */
+.ecs87-copy {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 10px;
+  color: #454545;
+  padding: 20px 0;
+  line-height: 20px;
+}
+.footer-copyright {
+	background: #c9c9c9;
+}
+
+/* #PROJECT MANAGEMENT (Clients Page)
+================================================== */
+.client-list-nonadmin {
+	display: block;
+}
+.client-task-holder {
+	display: none;
+}
+.client-task-holder {
+	margin: 0 0 20px 0;
+}
+.cth-has-tasks {
+  background-color: #000;
+  color: #FFF;
+  padding: 5px;
+  display: block;
+  margin: 0 0 10px 0;
+  background-repeat: no-repeat;
+  background-position: 97%;
+  background-image: url(../images/expandarrow.png) !important;
+}
+.tatm-holder {
+	box-sizing: border-box;
+	padding: 10px;
+	background: #e8e8e8;
+	margin: 0 0 20px 0;
+	border-radius: 3px;
+}
+
+/* #PROJECT MANAGEMENT (Comments)
+================================================== */
+.comment-author.vcard {
+	margin: 0 20px 10px 0;
+	overflow: hidden;
+	text-decoration: underline;
+}
+.comment-body {
+	background: #000;
+	border-radius: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	color: #FFF;
+}
+.comment-body a {
+	color: #FFF;
+}
+.comments-holder {
+	margin-left: 0;
+}
+.comments-holder li {
+	margin: 20px 0 0px 0;
+	list-style: none;
+}
+.reply-holder {
+	margin: 0;
+}
+
+/* #PROJECT MANAGEMENT (Timesheet Admin)
+================================================== */
+.timesheet-del-entry, .timesheet-edit-entry {
+	display: inline-block;
+	padding: 0 10px;
+	background: rgb(255, 1, 1) !important;
+	color: #FFF !important;
+	opacity: .5;
+}
+.timesheet-edit-entry {
+	background: rgb(18, 0, 255) !important;
+	margin-right: 10px;
+}
+.timesheet-item form {
+	display: inline-block;
+}
+.timesheet-del-entry:hover, .timesheet-edit-entry:hover {
+	opacity: 1 !important;
+	color: #FFF;
+}
+.timesheet-holder {
+	box-sizing: border-box;
+	margin: 20px 0 0 0;
+}
+.timesheet-item {
+	box-sizing: border-box;
+	background: #FFF;
+	padding: 5px 0;
+	border-top: 1px solid #000;
+}
+.timesheet-legend {
+	font-weight: 600;
+	margin: 30px 0 0 0;
+}
+.timesheet-date-picker, .entry-owner {
+	margin: 0 0 0 10px;
+}
+
+/* #PROJECT MANAGEMENT (Menu)
+================================================== */
+#menu-pm-menu li {
+	display: inline-block;
+}
+#menu-pm-menu li a {
+	text-decoration: none;
+	font-size: 1.2vw;
+	display: block;
+	padding: 1.2vw;
+	margin: 0.5px;
+	background: #000;
+	color: #FFF;
+	transition: 200ms all;
+}
+ul#menu-pm-menu {
+	margin: 0;
+}
+#menu-pm-menu li a:hover {
+	background: #b5b5b5;
+	color: #000;
+}
+.pm-container, .projmgmt-logo {
+	float: none !important;
+	display: inline-block !important;
+	vertical-align: middle;
+	font-size: 0;
+	line-height: 0;
+}
+.logo-menu-wrapper {
+	text-align: center;
+}
+#menu-pm-menu li {
+	display: inline-block;
+	width: 33%;
+	margin: 0;
+}
+
+/* #PROJECT MANAGEMENT (Task Singles)
+================================================== */
+.comment-author.vcard {
+	text-decoration: none;
+}
+form.comment-form p.logged-in-as a, #cancel-comment-reply-link {
+	font-family: 'Raleway';
+	text-decoration: none;
+	border-radius: 3px;
+	background: #000;
+	color: #FFF;
+	padding: 5px;
+	box-sizing: border-box;
+	margin: 0 0 0 5px;
+}
+.comment-body {
+	border-radius: 3px;
+}
+form.comment-form p.logged-in-as a:first-child {
+	margin: 0;
+}
+form.comment-form p.logged-in-as, .reply-holder #reply-title, form#commentform .comment-form-comment label {
+	display: none;
+}
+.reply-holder #respond #reply-title {
+	display: block;
+}
+.reply-holder .comment-form textarea {
+	min-height: 150px;
+}
