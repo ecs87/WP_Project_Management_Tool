@@ -14,15 +14,15 @@ In the Dashboard (Forms)
 1. Activate your license of Gravity Forms
 2. Go to Forms -> New Form/Add New -> Form Title -> "Timesheet" -> Click the Create Form Button
 3. Add 6 fields:
-* Date (Advanced Fields -> Date)
-* Start Time (Advanced Fields -> Time)
-* End Time (Advanced Fields -> Time)
-* Client (Standard Fields -> Drop Down)
-* Task Description (Standard Fields -> Paragraph Text)
-* Worker Name (Standard Fields -> Single Line Text)
+	* Date (Advanced Fields -> Date)
+	* Start Time (Advanced Fields -> Time)
+	* End Time (Advanced Fields -> Time)
+	* Client (Standard Fields -> Drop Down)
+	* Task Description (Standard Fields -> Paragraph Text)
+	* Worker Name (Standard Fields -> Single Line Text)
 4. I've added images to show what each of the field settings should be populated with (if you do not see images for an Appearance tab for that field it means that the defaults were used).
 imgs
-5. Take note of ALL field ID numbers and your form ID number (refer to the image below to get these numbers).
+5. Take note of ALL field ID numbers and your form ID number (refer to the image below to get these numbers; the red arrow is pointing to the form ID number and the orange arrow is pointing to the field ID number).
 ![Alt text](/screenshots/formAndFieldID.jpg?raw=true "Form and Field ID")
 6. Go to Forms -> select your "Timesheet" form -> Settings -> Confirmations -> I hope you took note of your form ID number!!! -> Confirmation Type: Text -> Message: [gravityform id="your form ID # goes here" title="false" description="false"] (refer to the image below for clarification).
 ![Alt text](/screenshots/gformConfirmation.jpg?raw=true "Gforms Confirmations")
